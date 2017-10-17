@@ -8,20 +8,24 @@ body {
   margin-top: 0;
 }
 
+div {
+  display: block;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
 /* header section */
 
 header {
-  width: 100%;
   color: white;
   background-color: black;
-  font-size: 1rem;
 }
 
-header span {
+header .container {
   display: flex;
   align-items: center;
-  width: 960px;
-  margin: 0 auto;
 }
 
 header img {
@@ -31,7 +35,7 @@ header img {
   margin-right: 1rem;
 }
 
-header p {
+header span {
   padding: 0.66rem 0;
 }
 
@@ -83,5 +87,34 @@ header p {
 }
 
 .items a {
+  color: white;
+}
+
+.products {
+  width: 960px;
+}
+
+.products .grid {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.grid .item {
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%
+}
+
+.item img {
+  height: 9rem;
+  width: 100%;
+  padding: 2rem;
+}
+
+.item p {
+  background-color: black;
   color: white;
 }
