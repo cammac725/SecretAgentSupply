@@ -37,3 +37,51 @@ header p {
 
 /* Banner section */
 
+.banner {
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+.banner .text-content {
+  width: 960px;
+  padding-top: 9rem;
+}
+
+.banner .arrival {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  padding: 2rem 3rem;
+
+}
+
+.banner h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+.banner h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Navigation bar section */
+
+.navbar {
+  background-color: firebrick;
+  width: 100%;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  padding: 0.75rem 0;
+}
+
+.items a {
+  color: white;
+}
