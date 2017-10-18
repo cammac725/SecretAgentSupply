@@ -169,6 +169,60 @@ footer {
     width: 47%;
   }
   
+  .products .glasses {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+  
+  .banner h4 {
+    font-weight: bold;
+    font-size: 0.77rem;
+  }
+  
+  .banner h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0.25rem 0;
+  }
+  
+  .banner .arrival {
+    padding: 1rem 2rem;
+    top: 10rem;
+  }
+  
+  .products .glasses {
+    display: none;
+  }
+  
   .products .watch {
     display: none;
   }
+  
+  .products .item {
+    width: 90%;
+  }
+  
+  .products {
+    justify-content: center;
+  }
+  
+  .business-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info {
+    width: 90%;
+    padding: 0.25rem 0;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+}
