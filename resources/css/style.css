@@ -118,3 +118,21 @@ header span {
 
 /* Business info section */
 
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+/* Footer section */
+
