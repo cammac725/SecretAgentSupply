@@ -136,3 +136,9 @@ header span {
 
 /* Footer section */
 
+footer {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 5rem 0; 
+}
